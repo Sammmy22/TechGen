@@ -9,6 +9,10 @@ import 'package:techgen/screens/auth/LoginPage.dart';
 import 'package:techgen/screens/auth/RegisterPageDetails.dart';
 import 'package:techgen/screens/user/HomePage.dart';
 import 'package:techgen/screens/user/UpcomingEventsNav.dart';
+import 'package:techgen/screens/user/ReferPage.dart';
+import 'package:techgen/screens/user/MyFriends.dart';
+import 'package:techgen/screens/user/MyTeam.dart';
+import 'package:techgen/screens/user/PreviousEvents.dart';
 
 void main() => runApp(
       MaterialApp(
@@ -18,6 +22,6 @@ void main() => runApp(
           RegisterPageRoute: (context) => const RegisterPageDetails(),
         },
         debugShowCheckedModeBanner: false,
-        home: SplashScreen(),
+        home: PreviousEvents(),
       ),
     );
